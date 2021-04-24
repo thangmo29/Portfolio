@@ -1,0 +1,29 @@
+body{
+    font-family: 'Kanit', sans-serif;;
+    height: auto;
+    width: auto;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+a{
+    font-size: 18px;
+    color:s black;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    
+    
+  }
+
+@media screen and (min-width: 576px) {
+    
+    
+  }
+@media screen and (max-width: 576px) {
+    
+  }
