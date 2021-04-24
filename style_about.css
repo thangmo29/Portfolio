@@ -8,11 +8,32 @@ body{
     background-size: cover;
     
 }
+.container{
+  margin-top: 30px;
+}
 a{
     font-size: 18px;
     color:s black;
 }
+.strat{
+  color: black;
+}
+.image1{
+  width: 220px;
 
+}
+
+
+
+.carousel,
+.carousel-inner,
+.carousel-item > img {
+  height: 500px;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+}
 
 
 @media screen and (min-width: 992px) {
@@ -21,9 +42,15 @@ a{
   }
 
 @media screen and (min-width: 576px) {
-    
+  .image1{
+    width: 100px;
+  }
     
   }
 @media screen and (max-width: 576px) {
-    
+  .image1{
+    width: 100px;
+
   }
+
+}

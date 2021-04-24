@@ -1,0 +1,51 @@
+body{
+    font-family: 'Kanit', sans-serif;;
+    height: auto;
+    width: auto;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+.container{
+  margin-top: 30px;
+}
+
+.image1{
+    width: 200px;
+    margin: auto;
+}
+.image2{
+    width: 105px;
+    margin: auto;
+    
+}
+.card{
+    margin-top: 3em;
+}
+.card2{
+    animation: slideInUp;
+    animation-duration: 2s;
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 576px) {
+
+
+}
+@media screen and (max-width: 576px) {
+    .image1{
+        width: 150px;
+    } 
+    .image2{
+        width: 80px;
+    }
+    .card{
+        margin-top: 5em;
+    }
+}
+
