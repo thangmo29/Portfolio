@@ -1,0 +1,95 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    height: auto;
+    width: auto;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+.container{
+  margin-top: 30px;
+}
+h1{
+    font-family: 'Zen Dots', cursive;
+}
+p{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 20px;
+    color:s black;
+
+  }
+.skill{
+    margin-top: 2em;
+}
+@media screen and (min-width: 992px) {
+    .image1{
+        width: 170px;
+        margin-top: 0.5em;
+    }
+    .image2{
+        width: 250px;
+        margin-top: 0.5em;
+    }
+    .image3{
+        width: 400px;
+        margin-top: 0.5em;
+    }
+    .text1{
+        margin-top: 7em;
+    }
+    .text2{
+        margin-top: 1em;
+    }
+    .text3{
+        margin-top: 4em
+    }
+    .text4{
+        margin-top: 4em
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .image1{
+        width: 140px;
+    }
+    .image2{
+        width: 250px;
+    }
+    .image3{
+        width: 350px;
+        margin-top: 0.5em;
+    }
+    .text1{
+        margin-left: 3em;
+    }
+    .text2{
+        margin-left: 7em;
+    }
+    .text3{
+        margin-left: 7em
+    }
+    .text4{
+        margin-left: 7em
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .image1{
+        width: 80px;
+    }
+
+    .image2{
+        width: 180px;
+    }
+    .image3{
+        width: 320px;
+        margin-top: 0.5em;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+}

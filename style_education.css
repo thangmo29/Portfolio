@@ -1,5 +1,5 @@
 body{
-    font-family: 'Kanit', sans-serif;;
+    font-family: 'Kanit', sans-serif;
     height: auto;
     width: auto;
     background-color: blue;
@@ -11,7 +11,14 @@ body{
 .container{
   margin-top: 30px;
 }
-
+h1{
+    font-family: 'Zen Dots', cursive;
+}
+p{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 18px;
+    color:s black;
+  }
 .image1{
     width: 200px;
     margin: auto;

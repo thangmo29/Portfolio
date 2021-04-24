@@ -11,9 +11,10 @@ body{
 .container{
   margin-top: 30px;
 }
-a{
-    font-size: 18px;
-    color:s black;
+p{
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  color:s black;
 }
 .strat{
   color: black;
@@ -50,7 +51,9 @@ a{
 @media screen and (max-width: 576px) {
   .image1{
     width: 100px;
-
+    margin-left: 10em;
   }
-
+  .showtext{
+    margin-left: 6em;
+  }
 }
