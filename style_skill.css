@@ -17,15 +17,27 @@ h1{
 p{
     font-family: 'Kanit', sans-serif;;
     font-size: 20px;
-    color:s black;
+    color: black;
 
   }
+
 .skill{
     margin-top: 2em;
 }
+.image2{
+    animation: hvr-bounce-out;
+    animation-duration: 4s;
+    border-radius: 5px;
+}
+.image3{
+    border-radius: 5px;
+}
 @media screen and (min-width: 992px) {
+    .image-text{
+        margin-bottom: 3em;
+    }
     .image1{
-        width: 170px;
+        width: 130px;
         margin-top: 0.5em;
     }
     .image2{
@@ -41,44 +53,47 @@ p{
     }
     .text2{
         margin-top: 1em;
+        margin-left: 4em;
     }
     .text3{
-        margin-top: 4em
+        margin-top: 4em;
+        margin-left: 4em;
     }
     .text4{
-        margin-top: 4em
+        margin-top: 4em;
+        margin-left: 4em;
     }
 
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 991px) {
     .image1{
-        width: 140px;
+        width: 90px;
     }
     .image2{
-        width: 250px;
+        width: 200px;
     }
     .image3{
-        width: 350px;
+        width: 340px;
         margin-top: 0.5em;
     }
     .text1{
         margin-left: 3em;
     }
     .text2{
-        margin-left: 7em;
+        margin-left: 8em;
     }
     .text3{
-        margin-left: 7em
+        margin-left: 8em
     }
     .text4{
-        margin-left: 7em
+        margin-left: 8em
     }
 
 }
 @media screen and (max-width: 576px) {
     .image1{
-        width: 80px;
+        width: 70px;
     }
 
     .image2{
