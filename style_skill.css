@@ -2,24 +2,27 @@ body{
     font-family: 'Kanit', sans-serif;
     height: auto;
     width: auto;
-    background-color: blue;
+    background: url(image/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     
 }
-.container{
-  margin-top: 30px;
-}
+/* .container{
+    background-color: aliceblue;
+} */
 h1{
     font-family: 'Zen Dots', cursive;
+    color: white;
 }
 p{
     font-family: 'Kanit', sans-serif;;
     font-size: 20px;
-    color: black;
-
+    color: white;
   }
+/* .bg{
+    background-color: blueviolet;
+} */
 
 .skill{
     margin-top: 2em;
@@ -32,7 +35,7 @@ p{
 .image3{
     border-radius: 5px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 991px) {
     .image-text{
         margin-bottom: 3em;
     }

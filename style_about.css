@@ -1,25 +1,52 @@
 body{
-    font-family: 'Kanit', sans-serif;;
-/*     height: auto;
-    width: auto; */
-    background-color: blue;
-/*     background-repeat: no-repeat;
+    font-family: 'Kanit', sans-serif;
+    height: auto;
+    width: auto;
+    background: url(image/bg.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover; */
+    background-size: cover;
     
 }
-.container{
-  margin-top: 30px;
-  background-color: blue;
-}
+
 p{
   font-family: 'Kanit', sans-serif;
   font-size: 18px;
-  color:s black;
+  color:white;
 }
 .strat{
-  color: black;
+  color: white;
 }
+.image1{
+  width: 220px;
+
+}
+h2{
+  color: white;
+  font-family: 'Zen Dots', cursive;
+
+  
+}
+.social_footer_ul{
+  display:table; 
+  margin:15px auto 0 auto; 
+  list-style-type:none; 
+  width: 20px;
+  height: 30px;
+}
+.footer-bg{
+  background-color: gray;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* .bg{
+  background-color: aqua;
+}
+.bg-nav{
+  background-color: aqua;
+} */
 
 
 
@@ -40,7 +67,7 @@ p{
 }
 @media screen and (max-width: 576px) {
   .image1{
-    width: 150x;
+    width: 120x;
   }
   .show-text{
     margin-top: 3em;
