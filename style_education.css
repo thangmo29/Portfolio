@@ -36,7 +36,7 @@ p{
 }
 .card2{
     animation: slideInUp;
-    animation-duration: 2s;
+
 }
 
 @media screen and (min-width: 992px) {
