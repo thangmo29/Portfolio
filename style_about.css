@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Kanit', sans-serif;
     height: auto;
     width: auto;
     background: url(image/bg3-1.jpg);
@@ -10,7 +10,7 @@ body{
     
 }
 .container{
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Kanit', sans-serif;
 }
 
 .li{
@@ -21,7 +21,7 @@ body{
 }
 .nav-item{
   font-size: 20px;
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Kanit', sans-serif;
 }
 p{
   font-size: 18px;
@@ -36,7 +36,7 @@ p{
 }
 h2{
   color: black;
-  font-family: 'Zen Dots', cursive;
+  font-family: 'Kanit', sans-serif;
 
 }
 .social_footer_ul{
