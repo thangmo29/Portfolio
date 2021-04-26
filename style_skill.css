@@ -31,7 +31,7 @@ p{
 }
 .image2{
     animation: hvr-bounce-out;
-    animation-delay: 5s;
+    animation-delay: 10s;
     animation-duration: 4s;
     border-radius: 5px;
 }
