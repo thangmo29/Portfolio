@@ -1,21 +1,23 @@
 body{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Zen Dots', cursive;
     height: auto;
     width: auto;
-    background: url(image/bg.jpg);
+    background: url(image/bg3-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     
 }
 .container{
-  margin-top: 30px;
+
+  font-family: 'Zen Dots', cursive;
 }
-h1{
+.nav-item{
+    font-size: 20px;
     font-family: 'Zen Dots', cursive;
-}
+  }
 p{
-    font-family: 'Kanit', sans-serif;;
+    font-family: 'Zen Dots', cursive;
     font-size: 18px;
     color:s black;
   }
@@ -30,6 +32,7 @@ p{
 }
 .card{
     margin-top: 3em;
+    border-radius: 5px;
 }
 .card2{
     animation: slideInUp;

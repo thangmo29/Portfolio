@@ -1,31 +1,43 @@
+
 body{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Zen Dots', cursive;
     height: auto;
     width: auto;
-    background: url(image/bg.jpg);
+    background: url(image/bg3-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     
 }
+.container{
+  font-family: 'Zen Dots', cursive;
+}
 
+.li{
+  font-size: 20px;
+}
+.img{
+  width: 40px;
+}
+.nav-item{
+  font-size: 20px;
+  font-family: 'Zen Dots', cursive;
+}
 p{
-  font-family: 'Kanit', sans-serif;
   font-size: 18px;
-  color:white;
+  color:black;
 }
 .strat{
-  color: white;
+  color: black;
 }
 .image1{
   width: 220px;
 
 }
 h2{
-  color: white;
+  color: black;
   font-family: 'Zen Dots', cursive;
 
-  
 }
 .social_footer_ul{
   display:table; 
@@ -41,14 +53,9 @@ h2{
   bottom: 0;
   width: 100%;
 }
-/* .bg{
-  background-color: aqua;
+.image-foot{
+ padding-bottom: 1em;
 }
-.bg-nav{
-  background-color: aqua;
-} */
-
-
 
 @media screen and (min-width: 992px) {
   .image1{

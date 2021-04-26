@@ -2,27 +2,29 @@ body{
     font-family: 'Kanit', sans-serif;
     height: auto;
     width: auto;
-    background: url(image/bg.jpg);
+    background: url(image/bg3-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     
 }
-/* .container{
-    background-color: aliceblue;
-} */
+.container{
+
+    font-family: 'Zen Dots', cursive;
+  }
+.nav-item{
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+  }
 h1{
     font-family: 'Zen Dots', cursive;
-    color: white;
+    color: black;
 }
 p{
     font-family: 'Kanit', sans-serif;;
     font-size: 20px;
-    color: white;
+    color: black;
   }
-/* .bg{
-    background-color: blueviolet;
-} */
 
 .skill{
     margin-top: 2em;
