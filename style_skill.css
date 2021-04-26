@@ -21,7 +21,7 @@ h1{
     color: black;
 }
 p{
-    font-family: 'Kanit', sans-serif;;
+    font-family: 'Kanit', sans-serif;
     font-size: 20px;
     color: black;
   }
@@ -30,9 +30,6 @@ p{
     margin-top: 2em;
 }
 .image2{
-    animation: hvr-bounce-out;
-    animation-delay: 10s;
-    animation-duration: 4s;
     border-radius: 5px;
 }
 .image3{
