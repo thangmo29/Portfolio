@@ -8,6 +8,7 @@ body{
     background-size: cover;
     
 }
+
 .container{
 
   font-family: 'Kanit', sans-serif;
@@ -34,10 +35,7 @@ p{
     margin-top: 3em;
     border-radius: 5px;
 }
-.card2{
-    animation: slideInUp;
 
-}
 
 @media screen and (min-width: 992px) {
 
