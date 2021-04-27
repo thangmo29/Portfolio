@@ -3,18 +3,34 @@ body{
     font-family: 'Kanit', sans-serif;
     height: auto;
     width: auto;
-    background: url(image/bg3-1.jpg);
+    background: url(image/bg-home.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     
 }
+.bg{
+  background-color: rgb(170, 170, 170);
+}
 .container{
   font-family: 'Kanit', sans-serif;
 }
-
 .li{
   font-size: 20px;
+}
+.text-photo{
+  margin-top: 1em;
+  font-size: 20px;
+}
+.show-text{
+  margin-top: 2em;
+}
+.text-job{
+  margin-left: 1em;
+  margin-top: 2em;
+}
+.text-contact{
+  margin-top: 2em;
 }
 .img{
   width: 40px;
@@ -46,16 +62,17 @@ h2{
   width: 20px;
   height: 30px;
 }
-.footer-bg{
-  background-color: gray;
-  position: fixed;
-  left: 0;
+footer{
+  padding: 100px;
+  right: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  padding: 1em;
+  background-color: gray;
+  text-align: center;
+
 }
-.image-foot{
- padding-bottom: 1em;
-}
+
 
 @media screen and (min-width: 992px) {
   .image1{
@@ -71,14 +88,29 @@ h2{
   .about{
     margin-top: 3em;
   }
+  .text-job{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .text-contact{
+    margin-top: 1em;
+  }
+  
 }
 @media screen and (max-width: 576px) {
   .image1{
     width: 120x;
   }
-  .show-text{
-    margin-top: 3em;
+  .text-job{
+    margin-left: 0em;
+    margin-top: 0em;
   }
+  .text-contact{
+    margin-top: 1em;
+  }
+  /* .show-text{
+    margin-top: 1em;
+  } */
     
   
 }
